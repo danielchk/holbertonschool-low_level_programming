@@ -6,15 +6,9 @@
  */
 int main(void)
 {
-char az[26] = "abcdefghijklmnopqrstuwxyz";
-int h = 0;
-char alfa;
-while (h < 26)
-{
-alfa = az[h];
-putchar(alfa);
-h++;
-}
-putchar ('\n');
-return (0);
+	int a;
+		for (a = 'a'; a <= 'z' ; ++a)
+			putchar(a);
+	putchar('\n');
+	return (0);
 }
