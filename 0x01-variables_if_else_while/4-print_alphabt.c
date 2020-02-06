@@ -7,16 +7,10 @@
 int main(void)
 {
 char a;
-for (a = 'a'; a <= 'd' ; a++)
+for (a = 'a'; a <= 'z' ; a++)
 {
-putchar(a);
-}
-for (a = 'f'; a <= 'p' ; a++)
-{
-putchar(a);
-}
-for (a = 'r'; a <= 'z' ; a++)
-{
+	if (a == 'q' || a == 'e')
+		continue;
 putchar(a);
 }
 putchar('\n');
