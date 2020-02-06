@@ -15,7 +15,7 @@ if (r > 5)
 printf("Last digit of %d is %d", n, r, " and is greater than 5/n");
 if (r == 0)
 printf("Last digit of %d is %d", n, r, "and is 0\n");
-if (r < 6 && r > 0)
+else
 printf("Last digit of %d is %d", n, r, "and is less than 6 and not 0\n");
 return (0);
 }
