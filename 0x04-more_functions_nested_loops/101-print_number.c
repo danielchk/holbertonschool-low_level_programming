@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * main - Entry point
- *
+ * print_number - Entry point
+ * @n: input
  * Return: Always 0 (Success)
  */
 void print_number(int n)
@@ -17,5 +17,5 @@ void print_number(int n)
 		print_number(n / 10);
 	}
 
-	_putchar(n % 10 +'0');
+	_putchar(n % 10 + '0');
 }
