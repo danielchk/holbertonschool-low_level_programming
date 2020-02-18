@@ -14,8 +14,8 @@ void rev_string(char *s)
 	}
 
 	j = 0;
-	h= h - 1;
-	while(j < h)
+	h = h - 1;
+	while (j < h)
 	{
 		reverse = s[j];
 		s[j] = s[h];
