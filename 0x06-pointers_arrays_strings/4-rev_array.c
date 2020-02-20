@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
+ * reverse_array - check the code for Holberton School students.
  * @a: an array of integers
  * @n: the number of elements to swap
  *
@@ -8,10 +8,17 @@
  */
 void reverse_array(int *a, int n)
 {
-	int n, r;
+	int r, g;
 
-	for (n = n - 1 ; n >= 0 ; n--)
+	n = n - 1;
+	r = 0;
+	while (r < n)
 	{
-		a[n];
+		g = a[r];
+		a[r] = a[n];
+		a[n] = g;
+		r++;
+		n--;
 	}
+
 }
