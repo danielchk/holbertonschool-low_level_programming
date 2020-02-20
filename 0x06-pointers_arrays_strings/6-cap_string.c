@@ -1,4 +1,4 @@
-A#include "holberton.h"
+#include "holberton.h"
 /**
  * *cap_string - check the code for Holberton School students.
  * @u: counter
@@ -41,7 +41,9 @@ for (i = 0; u[i]; i++)
 	if (u[i - 1] == '}')
 	{
 		if (u[i] > 96 && u[i] < 123)
+		{
 			u[i] = u[i] - 32;
+		}
 	}
 }
 return (u);
