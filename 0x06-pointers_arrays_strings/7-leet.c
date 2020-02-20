@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
- *
+ * *leet - replace with 1337
+ * @u: quote
  * Return: Always 0.
  */
 char *leet(char *u)
