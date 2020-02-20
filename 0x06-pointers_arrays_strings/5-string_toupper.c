@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
- *
+ * *string_toupper - upper everuthing
+ * @u: quote
  * Return: Always 0.
  */
 char *string_toupper(char *u)
