@@ -3,6 +3,7 @@
  * *_strncat - concatenate 2 strings
  * @dest: destiny
  * @src: source
+ * @n: lenght
  * Return: Always 0.
  */
 char *_strncat(char *dest, char *src, int n)
@@ -13,7 +14,7 @@ char *_strncat(char *dest, char *src, int n)
 	for (i = 0; dest[i]; i++)
 	{
 	}
-	for (j = 0; j < n; i++ , j++)
+	for (j = 0; j < n; i++, j++)
 	{
 		dest[i] = src[j];
 	}

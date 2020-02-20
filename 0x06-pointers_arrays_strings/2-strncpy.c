@@ -1,7 +1,9 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
- *
+ * *_strncpy - check the code for Holberton School students.
+ * @dest: destiny
+ * @src: source
+ * @n: lenght
  * Return: Always 0.
  */
 char *_strncpy(char *dest, char *src, int n)
