@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
- *
+ * *rot13 - translate to rot13
+ * @u: Quote
  * Return: Always 0.
  */
 char *rot13(char *u)
