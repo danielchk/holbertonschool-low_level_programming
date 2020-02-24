@@ -8,7 +8,7 @@
 char *_strchr(char *s, char c)
 {
 	int i;
-	char *p = NULL;
+	char *p;
 
 	for (i = 0; s[i]; i++)
 	{
@@ -17,6 +17,10 @@ char *_strchr(char *s, char c)
 			p = &s[i];
 			break;
 		}
+	}
+	if (s[i] == '\0')
+	{
+		return ('\0');
 	}
 	return (p);
 }
