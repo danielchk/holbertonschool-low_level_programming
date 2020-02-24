@@ -18,9 +18,10 @@ char *_strchr(char *s, char c)
 			break;
 		}
 	}
-	if (s[i] == '\0')
+	if (s[i] == c)
 	{
-		return ('\0');
+		return (p);
 	}
-	return (p);
+
+	return ('\0');
 }
