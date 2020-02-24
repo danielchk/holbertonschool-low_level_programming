@@ -1,7 +1,8 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
- *
+ * *_strchr - chars
+ * @s: To search
+ * @c: Char to search
  * Return: Always 0.
  */
 char *_strchr(char *s, char c)
