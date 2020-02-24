@@ -1,12 +1,13 @@
 #include "holberton.h"
 /**
- * main - check the code for Holberton School students.
- *
+ * *_strpbrk - The same
+ * @s: String
+ * @accept: String 2
  * Return: Always 0.
  */
 char *_strpbrk(char *s, char *accept)
 {
-	unsigned i, j;
+	unsigned int i, j;
 
 	for (i = 0; s[i]; i++)
 	{
