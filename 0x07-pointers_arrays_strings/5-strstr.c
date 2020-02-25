@@ -1,23 +1,32 @@
 #include "holberton.h"
 /**
- * *_strstr - string to string
- * @haystack: String 1
+ * _strstr - string to string
+ * @haystack: string 1
  * @needle: string 2
- * Return: Always 0.
+ * Return: 0
  */
 char *_strstr(char *haystack, char *needle)
 {
-	unsigned int i, j;
+	int i = 0;
+	int j = 0;
 
-	for (i = 0; haystack[i]; i++)
+	if (*needle == 0)
 	{
-		for (j = 0; needle[j]; j++)
+		return (haystack);
+	}
+
+	for (i = 0; haystack[i] != '\0'; i++)
+	{
+		for (j = 0; needle[j] != '\0'; j++)
 		{
 			if (haystack[i + j] != needle[j])
 			{
-				return (&haystack[i]);
+				break;
 			}
 		}
+
+		if (needle[j] == '\0')
+			return (haystack + i);
 	}
-	return ('\0');
+	return (0);
 }
