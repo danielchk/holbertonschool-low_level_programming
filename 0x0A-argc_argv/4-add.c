@@ -18,7 +18,7 @@ int main(int argc, char *argv[])
 	}
 	for (sum1 = 1; sum1 < argc; sum1++)
 	{
-		for (sum2 = 0; argv[sum1][sum2]; sum2++)
+		for (sum2 = 0; argv[sum1][sum2] != '\0'; sum2++)
 		{
 			if (argv[sum1][sum2] < '0' || argv[sum1][sum2] > '9')
 			{
