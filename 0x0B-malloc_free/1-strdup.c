@@ -1,7 +1,8 @@
+#include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * *_strdup
+ * *_strdup - reallocate
  * @str: the string
  * Return: Always 0.
  */
@@ -17,7 +18,7 @@ char *_strdup(char *str)
 	for (i = 0; str[i] != '\0'; i++)
 		size = i;
 
-	s = malloc(sizeof(char) * i);
+	s = malloc(sizeof(char) * (i + 1));
 
 	if (s == '\0')
 		return ('\0');
