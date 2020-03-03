@@ -1,10 +1,9 @@
 #include "holberton.h"
-#include <stdio.h>
 #include <stdlib.h>
 /**
  * *_strdup - reallocate
  * @str: the string
- * Return: Always 0.
+ * Return: direction of string.
  */
 char *_strdup(char *str)
 {
