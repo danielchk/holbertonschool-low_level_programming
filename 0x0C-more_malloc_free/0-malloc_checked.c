@@ -3,15 +3,14 @@
 #include <stdio.h>
 /**
  * *malloc_checked - do the malloc to b
- * @b: Int
+ * @b: bytes
  * Return: Always 0.
  */
 void *malloc_checked(unsigned int b)
 {
-	int *s;
+	void *s;
 
-	void s = malloc(b);
-
+	s = malloc(b);
 	if (s == '\0')
 	{
 		exit(98);
