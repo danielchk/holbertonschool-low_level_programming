@@ -1,5 +1,6 @@
 #include "3-calc.h"
 #include <stdio.h>
+#include <stdlib.h>
 /**
  * struct op - Struct op
  *
@@ -22,7 +23,14 @@ int (*get_op_func(char *s))(int, int)
 	while (i < 5)
 	{
 		if (strcmp(s, ops[i].op) == 0)
+		{
 			return (ops[i].f);
+		}
+		else
+		{
+			printf("Error\n");
+			exit(99);
+		}
 
 		i++;
 	}
