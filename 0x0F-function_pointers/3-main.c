@@ -9,7 +9,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int i, j, k;
+	int i, j, k = 0;
 
 	if (argc != 4)
 	{
@@ -18,6 +18,11 @@ int main(int argc, char *argv[])
 	}
 	i = atoi(argv[1]);
 	j = atoi(argv[3]);
+	if (k == '\0')
+	{
+		printf("Error\n");
+		exit(99);
+	}
 	k = get_op_func(argv[2])(i, j);
 
 	printf("%d\n", k);
