@@ -2,10 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * struct op - Struct op
+ * *get_op_func - get the function to do
  *
- * @op: The operator
- * @f: The function associated
+ * @s: sign
+ * Return: 0
  */
 int (*get_op_func(char *s))(int, int)
 {
@@ -25,11 +25,6 @@ int (*get_op_func(char *s))(int, int)
 		if (strcmp(s, ops[i].op) == 0)
 		{
 			return (ops[i].f);
-		}
-		else
-		{
-			printf("Error\n");
-			exit(99);
 		}
 
 		i++;

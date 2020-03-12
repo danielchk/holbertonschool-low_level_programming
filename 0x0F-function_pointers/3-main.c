@@ -5,7 +5,7 @@
  * main - enter the data
  * @argc: length of the arguments
  * @argv: chars
- * 
+ * Return: 0
  */
 int main(int argc, char *argv[])
 {
@@ -13,8 +13,8 @@ int main(int argc, char *argv[])
 
 	if (argc != 4)
 	{
-		printf ("Error\n");
-		exit (98);
+		printf("Error\n");
+		exit(98);
 	}
 	i = atoi(argv[1]);
 	j = atoi(argv[3]);
