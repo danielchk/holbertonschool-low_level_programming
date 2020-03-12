@@ -19,6 +19,11 @@ int main(int argc, char *argv[])
 	i = atoi(argv[1]);
 	j = atoi(argv[3]);
 	k = get_op_func(argv[2])(i, j);
+	if (k == NULL)
+	{
+		printf("Error\n");
+		exit(99);
+	}
 	printf("%d\n", k);
 	return (0);
 }
