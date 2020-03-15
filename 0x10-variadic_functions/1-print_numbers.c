@@ -2,10 +2,10 @@
 #include "variadic_functions.h"
 #include <stdio.h>
 /**
- * print_numbers - print numbers and not other thing
+ * print_numbers - print numbers
  * Return: 0.
- * @separator:
- * @n:
+ * @separator: signs
+ * @n: number or arguments
  */
 
 void print_numbers(const char *separator, const unsigned int n, ...)

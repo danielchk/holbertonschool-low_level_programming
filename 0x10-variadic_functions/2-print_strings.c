@@ -2,8 +2,9 @@
 #include <stdio.h>
 #include <stdarg.h>
 /**
- * main - check the code for Holberton School students.
- *
+ * print_strings - print string
+ * @separator: sign
+ * @n: Number of arguments
  * Return: Always 0.
  */
 void print_strings(const char *separator, const unsigned int n, ...)

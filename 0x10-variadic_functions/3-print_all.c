@@ -6,7 +6,6 @@
 /**
  * print_all - print everything
  * @format: arguments
- *
  * Return: 0
  */
 void print_all(const char * const format, ...)
@@ -35,8 +34,8 @@ void print_all(const char * const format, ...)
 			printf("%f", (float) va_arg(ar, double));
 			break;
 		case 's':
-			tempstring = va_arg(ar, char*);
-			if (tempstring != NULL)
+			temp = va_arg(ar, char*);
+			if (temp != NULL)
 			{
 				printf("%s", temp);
 				break;
