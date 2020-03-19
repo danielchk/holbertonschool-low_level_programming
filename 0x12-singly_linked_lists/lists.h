@@ -4,6 +4,14 @@
 #include <stdlib.h>
 #include <stdio.h>
 
+/**
+ * struct list_s - structure to proyect
+ * @str: string
+ * @len: size of string
+ * @next: Next data of array
+ * Return: Nothing.
+ */
+
 typedef struct list_s
 {
 	char *str;
