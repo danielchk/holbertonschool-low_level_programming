@@ -4,12 +4,6 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-/**
- * main - check the code for Holberton School students.
- *
- * Return: Always 0.
- */
-
 typedef struct list_s
 {
     char *str;
