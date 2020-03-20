@@ -4,7 +4,7 @@
 #include <stdio.h>
 
 /**
- * First_this - printf before main
+ * print_start - printf before main
  * Return: Nothing.
  */
 void print_start(void)
