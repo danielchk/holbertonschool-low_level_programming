@@ -10,7 +10,7 @@ int pop_listint(listint_t **head)
 	int ubicationold;
 	listint_t *new;
 
-	if (head == NULL)
+	if (*head == NULL)
 		return (0);
 
 	ubicationold = (*head)->n;
