@@ -1,8 +1,8 @@
 #include "lists.h"
 /**
- * print_listint- Print number of nodes
- * @h: head of the list
- * Return: number of nodes.
+ * listint_len- Number of nodes
+ * @h: head
+ * Return: i
  */
 size_t listint_len(const listint_t *h)
 {
