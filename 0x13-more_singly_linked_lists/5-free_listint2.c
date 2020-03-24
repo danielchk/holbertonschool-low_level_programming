@@ -6,9 +6,13 @@
 void free_listint2(listint_t **head)
 {
 	listint_t *tmp, *save;
+
+	if (head == NULL || *head == NULL)
+		return (NULL);
+
 	save = *head;
 
-	while(save != NULL && head != NULL)
+	while (save != NULL && head != NULL)
 	{
 		tmp = save;
 		save = save->next;
