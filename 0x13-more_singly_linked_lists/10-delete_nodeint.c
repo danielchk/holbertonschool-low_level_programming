@@ -1,22 +1,24 @@
 #include "lists.h"
 /**
- * main - check the code for Holberton School students.
- *
+ * delete_nodeint_at_index - delete node in a index
+ * @head: head
+ * @index: to delete
  * Return: Always 0.
  */
 int delete_nodeint_at_index(listint_t **head, unsigned int index)
 {
-	 unsigned int i = 0, j = 0;
+	unsigned int i = 0, j = 0;
 
-	 listint_t *nextnode, *node;
+	listint_t *nextnode, *node;
 
 	if (*head == NULL)
 		return (-1);
 	 nextnode = *head;
+
 	while (nextnode->next != NULL)
 	{
-		 nextnode = nextnode->next;
-		 j++;
+		nextnode = nextnode->next;
+		j++;
 	}
 	if (index > j)
 		return (-1);
