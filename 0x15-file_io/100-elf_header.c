@@ -1,9 +1,11 @@
 /**
  * main - elf_header
- *
- * Return: 0
+ * @argc: count arguments
+ * @argv: array of argments
+ * Return: 1
  */
-int main(void)
+int main(int argc, char *argv[])
 {
-	return (0);
+	printf("argc:%d, argv:%p\n", argc, (void *)*argv);
+	return (1);
 }
