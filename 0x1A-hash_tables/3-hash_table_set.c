@@ -27,9 +27,9 @@ hash_node_t *new_node(const char *key, const char *value)
 /**
  * hash_table_set - adds an element to hash table
  * @ht: hash table
- * @key: key of element
- * @value: value associated with that key
- * Return: 1 if succces or 0
+ * @key: key
+ * @value: value of key
+ * Return: 1 
  */
 
 int hash_table_set(hash_table_t *ht, const char *key, const char *value)
