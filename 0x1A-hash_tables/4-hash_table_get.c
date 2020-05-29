@@ -1,7 +1,7 @@
 #include "hash_tables.h"
 
 /**
- * hash_table_get - returns value associated with a certain key
+ * hash_table_get - get a value of the index of a specific index
  * @ht: hash table
  * @key: key
  * Return: Null or value
