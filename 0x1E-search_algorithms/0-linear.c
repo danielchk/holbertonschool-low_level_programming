@@ -1,10 +1,10 @@
 #include "search_algos.h"
 /**
- * Function that searches for a value in an
- * array of integers using the Linear search algorithm
+ * linear_search - Function that searches for a value in an array
  * @array:pointer to the first element of the array to search
  * @size: number of elements in array
  * @value: number to search
+ * Return: index if exists in array and -1 if not
  */
 
 int linear_search(int *array, size_t size, int value)
